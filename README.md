@@ -1,4 +1,4 @@
-# Training-from flask import Flask, render_template
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
@@ -8,8 +8,8 @@ def index():
 
 if __name__ == '__main__':
     app.run(debug=True)
-Flask==2.2.2
-{
+    Flask==2.2.2
+    {
   "version": 2,
   "builds": [
     { "src": "app.py", "use": "@vercel/python" }
